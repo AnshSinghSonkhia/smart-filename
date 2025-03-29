@@ -1,0 +1,41 @@
+{
+  "name": "smart-filename",
+  "version": "1.0.0",
+  "description": "NPM package designed for handling filenames safely and effectively. It provides utilities to format, sanitize, validate, truncate, and extract file extensions while ensuring compatibility across different operating systems. This package is particularly useful for developers dealing with file management, uploads, or generating SEO-friendly filenames.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/smart-filename.git"
+  },
+  "keywords": [
+    "filename",
+    "sanitize-filename",
+    "slugify-filename",
+    "validate-filename",
+    "format-filename",
+    "truncate-filename",
+    "file-extension",
+    "path-santitize",
+    "sanitize",
+    "seo-friendly",
+    "seo-friendly-filenames",
+    "remove-diacritics",
+    "clean-filename",
+    "file-utils",
+    "file-management"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/smart-filename/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/smart-filename#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "simply-slugy": "^1.1.0",
+    "strip-diacritics": "^1.0.0"
+  }
+}
