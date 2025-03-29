@@ -1,0 +1,35 @@
+.gitignore
+.npmignore
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build output
+dist/
+build/
+
+# Ignore test coverage
+coverage/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
